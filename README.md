@@ -3,7 +3,7 @@
 1. Check contents for modules on [website](https://adrianapicoral.com/csc-110/)
 1. Following the pattern of [other problems](https://adrianapicoral.com/csc-110/assignments-02.html), create the wording of your practice problem
 1. Once you have the first draft of the problem prompt, create a solution for your problem
-1. Open the [autograder folder example](assignment-04/autograder/) and modify: [run_autograder](assignment-04/autograder/run_autograder) to copy the file (match the file name) you expect students to submit; and [test_return.py](assignment-04/autograder/tests/test_return.py) to import the correct module and run your tests
+1. Open the [autograder folder example](assignment-04/autograder/) and modify: [run_autograder](assignment-04/autograder/run_autograder) to copy the file (match the file name) you expect students to submit; [test_files.py](assignment-04/autograder/tests/test_files.py) line 11 to list all files you are expecting students to submit; and [test_return.py](assignment-04/autograder/tests/test_return.py) to import the correct module (modify line 3) and run your tests
 1. Compress all contents of the autograder folder into one .zip file
 1. Access practice Gradescope course (ask Adriana for the Entry Code) and create a new programming assignment
 1. Add a title and number of points to your programming assignment settings, and release and due dates and click on "create assignment"
